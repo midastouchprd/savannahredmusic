@@ -68,3 +68,7 @@ app.config(function($stateProvider) {
     $stateProvider.state(paperdollState);
 
 });
+
+require('./directives');
+require('./services');
+require('./controllers');
