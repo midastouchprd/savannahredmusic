@@ -75,7 +75,7 @@ webpackJsonp([0],[
 
 	__webpack_require__(1);
 	__webpack_require__(4);
-	__webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./controllers\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+	__webpack_require__(5);
 
 
 /***/ },
@@ -98,6 +98,25 @@ webpackJsonp([0],[
 
 	const angular = __webpack_require__(2);
 	const app = angular.module('RedMusic', ['ui.router', 'ngStorage']);
+
+
+/***/ },
+/* 5 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	const angular = __webpack_require__(2);
+	const app = angular.module('RedMusic', ['ui.router', 'ngStorage']);
+
+	app.controller('homeController', __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./homeController\""); e.code = 'MODULE_NOT_FOUND'; throw e; }())));
+	app.controller('bioController', __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./bioController\""); e.code = 'MODULE_NOT_FOUND'; throw e; }())));
+	app.controller('listenController', __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./listenController\""); e.code = 'MODULE_NOT_FOUND'; throw e; }())));
+	app.controller('shopController', __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./shopController\""); e.code = 'MODULE_NOT_FOUND'; throw e; }())));
+	app.controller('bookingController', __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./bookingController\""); e.code = 'MODULE_NOT_FOUND'; throw e; }())));
+	app.controller('calendarController', __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./calendarController\""); e.code = 'MODULE_NOT_FOUND'; throw e; }())));
+	app.controller('blogController', __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./blogController\""); e.code = 'MODULE_NOT_FOUND'; throw e; }())));
+	app.controller('paperdollController', __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./paperdollController\""); e.code = 'MODULE_NOT_FOUND'; throw e; }())));
 
 
 /***/ }
