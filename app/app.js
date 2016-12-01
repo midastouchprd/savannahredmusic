@@ -1,4 +1,4 @@
-const app = angular.module('RedMusic', ['ui.router', 'ngStorage']);
+const app = angular.module('RedMusic', ['ui.router']);
 
 app.config(function($stateProvider) {
     const homeState = {

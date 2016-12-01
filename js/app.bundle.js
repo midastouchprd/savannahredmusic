@@ -2,7 +2,7 @@ webpackJsonp([0],[
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
-	const app = angular.module('RedMusic', ['ui.router', 'ngStorage']);
+	const app = angular.module('RedMusic', ['ui.router']);
 
 	app.config(function($stateProvider) {
 	    const homeState = {
@@ -85,7 +85,7 @@ webpackJsonp([0],[
 	'use strict';
 
 	const angular = __webpack_require__(2);
-	const app = angular.module('RedMusic', ['ui.router', 'ngStorage']);
+	const app = angular.module('RedMusic', ['ui.router']);
 
 
 /***/ },
@@ -97,7 +97,7 @@ webpackJsonp([0],[
 	'use strict';
 
 	const angular = __webpack_require__(2);
-	const app = angular.module('RedMusic', ['ui.router', 'ngStorage']);
+	const app = angular.module('RedMusic', ['ui.router']);
 
 
 /***/ },
@@ -107,17 +107,65 @@ webpackJsonp([0],[
 	'use strict';
 
 	const angular = __webpack_require__(2);
-	const app = angular.module('RedMusic', ['ui.router', 'ngStorage']);
+	const app = angular.module('RedMusic', ['ui.router']);
 
-	app.controller('homeController', __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./homeController\""); e.code = 'MODULE_NOT_FOUND'; throw e; }())));
-	app.controller('bioController', __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./bioController\""); e.code = 'MODULE_NOT_FOUND'; throw e; }())));
-	app.controller('listenController', __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./listenController\""); e.code = 'MODULE_NOT_FOUND'; throw e; }())));
-	app.controller('shopController', __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./shopController\""); e.code = 'MODULE_NOT_FOUND'; throw e; }())));
-	app.controller('bookingController', __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./bookingController\""); e.code = 'MODULE_NOT_FOUND'; throw e; }())));
-	app.controller('calendarController', __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./calendarController\""); e.code = 'MODULE_NOT_FOUND'; throw e; }())));
-	app.controller('blogController', __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./blogController\""); e.code = 'MODULE_NOT_FOUND'; throw e; }())));
-	app.controller('paperdollController', __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./paperdollController\""); e.code = 'MODULE_NOT_FOUND'; throw e; }())));
+	app.controller('homeController', __webpack_require__(6));
+	app.controller('bioController', __webpack_require__(7));
+	app.controller('listenController', __webpack_require__(8));
+	app.controller('shopController', __webpack_require__(9));
+	app.controller('bookingController', __webpack_require__(10));
+	app.controller('calendarController', __webpack_require__(11));
+	app.controller('blogController', __webpack_require__(12));
+	app.controller('paperdollController', __webpack_require__(13));
 
+
+/***/ },
+/* 6 */
+/***/ function(module, exports) {
+
+	
+
+/***/ },
+/* 7 */
+/***/ function(module, exports) {
+
+	
+
+/***/ },
+/* 8 */
+/***/ function(module, exports) {
+
+	
+
+/***/ },
+/* 9 */
+/***/ function(module, exports) {
+
+	
+
+/***/ },
+/* 10 */
+/***/ function(module, exports) {
+
+	
+
+/***/ },
+/* 11 */
+/***/ function(module, exports) {
+
+	
+
+/***/ },
+/* 12 */
+/***/ function(module, exports) {
+
+	
+
+/***/ },
+/* 13 */
+/***/ function(module, exports) {
+
+	
 
 /***/ }
 ]);
