@@ -123,7 +123,17 @@ webpackJsonp([0],[
 /* 6 */
 /***/ function(module, exports) {
 
-	
+	'use strict';
+
+	homeController.$inject = ['$scope, $http'];
+	function DashboardController(gh) {
+	    var _this = this;
+	    _this.github = '';
+	    gh.getStatus().success(function(status) {
+	        _this.github = status;
+	    });
+	}
+
 
 /***/ },
 /* 7 */
