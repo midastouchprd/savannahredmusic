@@ -1,0 +1,23 @@
+{
+  "name": "savannahredmusic",
+  "version": "1.0.0",
+  "description": "Band Website for Savannah Red Music - Anslee Connell",
+  "main": "js/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/midastouchprd/savannahredmusic.git"
+  },
+  "author": "Tosin Awofeso <midastouchproductions@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/midastouchprd/savannahredmusic/issues"
+  },
+  "homepage": "https://github.com/midastouchprd/savannahredmusic#readme",
+  "devDependencies": {
+    "angular": "^1.5.9",
+    "webpack": "^1.13.3"
+  }
+}
