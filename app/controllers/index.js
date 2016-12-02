@@ -1,7 +1,3 @@
-'use strict';
-
-const angular = require('angular');
-const app = angular.module('RedMusic', ['ui.router']);
 
 app.controller('homeController', require('./homeController'));
 app.controller('bioController', require('./bioController'));

@@ -9,15 +9,29 @@
 </head>
 
 <body>
+    <header>
+        <nav class="main" id="menu-header">
+            <a href='' ui-sref="home">Home</a> | <a href='' ui-sref="bio">bio</a>
+        </nav>
+    </header>
+
     <ui-view></ui-view>
 
 
 
     <!-- scripts -->
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-    <script src="./js/vendor.bundle.js" charset="utf-8"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.0-rc.2/angular.min.js" charset="utf-8"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.2/angular-ui-router.min.js" charset="utf-8"></script>
-    <script src="./js/app.bundle.js" charset="utf-8"></script>
+    <script src="app/app.js" charset="utf-8"></script>
+    <script src="app/controllers/bioController.js" charset="utf-8"></script>
+    <script src="app/controllers/blogController.js" charset="utf-8"></script>
+    <script src="app/controllers/bookingController.js" charset="utf-8"></script>
+    <script src="app/controllers/calendarController.js" charset="utf-8"></script>
+    <script src="app/controllers/homeController.js" charset="utf-8"></script>
+    <script src="app/controllers/listenController.js" charset="utf-8"></script>
+    <script src="app/controllers/paperdollController.js" charset="utf-8"></script>
+    <script src="app/controllers/shopController.js" charset="utf-8"></script>
 </body>
 
 </html>
