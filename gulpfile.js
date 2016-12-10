@@ -1,18 +1,17 @@
 const gulp = require('gulp');
 const shell = require('gulp-shell');
+const browserSync = require('browser-sync').create();
 
 
 gulp.task('watch', function() {
-    gulp.watch('./partials/*.html', ['bundle']);
-    gulp.watch('./app/**/*.js', ['bundle']);
+    gulp.watch('./partials/*.html', ['browser-sync']);
+    gulp.watch('./js/**/*.js', ['browser-sync']);
 });
 
 
-gulp.task('bundle', shell.task([
-    'clear',
-    'ga .',
-    'gca "'
-]))
+gulp.task('browser-sync', function() {
+    browserSync.reload();
+});
 
 gulp.task('default', [
     'watch'
