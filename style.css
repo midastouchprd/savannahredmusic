@@ -1,4 +1,56 @@
 body {
   background-color: gray;
-  
+}
+
+header {
+  width: 100%;
+  top: 0;
+  background-color: black;
+  ;
+}
+
+header nav {
+  position: relative;
+  padding: 2vh;
+  width: 50%;
+  left: 25%;
+}
+
+header nav .links {
+  position: relative;
+  text-align: center;
+}
+
+header nav .links a {
+  padding-left: 1vw;
+  padding-right: 1vw;
+  font-size: 1.5em;
+}
+
+/* unvisited link */
+header nav .links a:link {
+    color: white;
+}
+
+/* visited link */
+header nav .links a:visited {
+    color: white;
+}
+
+/* mouse over link */
+header nav .links a:hover {
+    color: red;
+}
+
+/* selected link */
+header nav .links a:active {
+    color: green;
+}
+
+#view {
+  position: absolute;
+}
+
+#view * {
+  postition: relative;
 }

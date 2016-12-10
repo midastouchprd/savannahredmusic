@@ -1,4 +1,4 @@
-const app = angular.module('RedMusic', ['ui.router']);
+const app = angular.module('RedMusic', ['ngAnimate', 'ui.router', 'anim-in-out']);
 
 app.config(function($stateProvider) {
     const homeState = {
