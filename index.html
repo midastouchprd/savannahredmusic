@@ -6,24 +6,37 @@
     <title>Savannah Red Music</title>
     <!-- styles -->
     <link rel="stylesheet" href="node_modules/angular-ui-router-anim-in-out/css/anim-in-out.css" media="screen" title="no title">
+    <link href="https://fonts.googleapis.com/css?family=Arbutus|Josefin+Sans|Nunito|Questrial|Quicksand" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" media="screen" title="no title">
 </head>
 
 <body>
     <header>
         <nav class="main" id="menu-header">
-          <div class="links">
-            <a ui-sref="bio" ui-sref-active="active">Bio</a> | <a ui-sref="listen">Listen</a> | <a ui-sref="blog">Blog</a> | <a ui-sref="booking">Booking</a> | <a ui-sref="calendar">Calendar</a>  | <a ui-sref="shop">Shop</a> | <a ui-sref="paperdoll">Paper Doll</a>
-          </div>
+            <div class="links">
+                <a ui-sref="bio" ui-sref-active="active">Bio</a> | <a ui-sref="listen">Listen</a> | <a ui-sref="blog">Blog</a> | <a ui-sref="booking">Booking</a> | <a ui-sref="calendar">Calendar</a> | <a ui-sref="shop">Shop</a> | <a ui-sref="paperdoll">Paper Doll</a>
+            </div>
         </nav>
     </header>
+    <div class="container-fluid" id="jumbotron">
+        <div class="col-xs-4"></div>
+        <div class="col-xs-4">
 
-    <ui-view id='view' class="anim-in-out anim-fade" data-anim-speed="1000"></ui-view>
+            <img class="img-responsive" src="../images/savannah-red-white-red.png" alt="" />
+
+        </div>
+        <div class="col-xs-4"></div>
+    </div>
+    <ui-view></ui-view>
 
 
 
     <!-- scripts -->
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.0-rc.2/angular.js" charset="utf-8"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.0/angular-animate.js" charset="utf-8"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.2/angular-ui-router.min.js" charset="utf-8"></script>

@@ -1,56 +1,134 @@
+/*font-family: 'Nunito', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Arbutus', cursive;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Questrial', sans-serif;*/
+
 body {
-  background-color: gray;
+    background-color: black;
 }
 
 header {
-  width: 100%;
-  top: 0;
-  background-color: black;
-  ;
+    width: 100%;
+    top: 0;
+    background-color: black;
+    ;
 }
 
 header nav {
-  position: relative;
-  padding: 2vh;
-  width: 50%;
-  left: 25%;
+    position: relative;
+    padding: 3vh;
+    color: white;
 }
 
 header nav .links {
-  position: relative;
-  text-align: center;
+    position: relative;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
 }
 
 header nav .links a {
-  padding-left: 1vw;
-  padding-right: 1vw;
-  font-size: 1.5em;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    font-size: 1.5vw;
+    ;
 }
 
+
 /* unvisited link */
+
 header nav .links a:link {
     color: white;
 }
 
+
 /* visited link */
+
 header nav .links a:visited {
     color: white;
 }
 
+
 /* mouse over link */
+
 header nav .links a:hover {
     color: red;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
 }
 
+
 /* selected link */
+
 header nav .links a:active {
     color: green;
 }
 
 #view {
-  position: absolute;
+    position: absolute;
 }
 
 #view * {
-  postition: relative;
+    postition: relative;
+}
+
+h1 {
+    position: flex;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+#jumbotron {
+    padding-top: 5vh;
+    width: 100vw;
+}
+
+.bio-newsletter {
+    margin-top: 4vh;
+}
+
+#email-form .row {
+    margin-top: 2vh;
+}
+
+#email-form div input, button {
+    font-family: 'Questrial', sans-serif;
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 18px;
+    line-height: 1.42857143;
+    color: #4149ff;
+    background-color: #000;
+    background-image: none;
+    border: none;
+    text-align: center;
+    opacity: 0.5;
+}
+
+#email-form div input, button:focus {
+    outline-color: #6f0000;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.bio p {
+    font-family: 'Questrial', sans-serif;
+    color: white;
+    text-align: justify;
+    padding: 1vh;
+    margin-right: 1vw;
+}
+
+.bio-image {
+    margin-bottom: 4vh;
+}
+
+blockquote {
+  color: #7575cd;
+  background-color: #0b0b0b;
 }
