@@ -8,6 +8,8 @@ body {
     background-color: black;
 }
 
+
+
 header {
     width: 100%;
     top: 0;
@@ -52,17 +54,10 @@ header nav .links a:visited {
 /* mouse over link */
 
 header nav .links a:hover {
-    color: red;
+    color: blue;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
-}
-
-
-/* selected link */
-
-header nav .links a:active {
-    color: green;
 }
 
 #view {
