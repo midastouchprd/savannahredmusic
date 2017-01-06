@@ -9,17 +9,21 @@
     <link rel="stylesheet" href="./style.css" media="screen" title="no title">
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type='text/javascript' src='http://widget.bandsintown.com/javascripts/bit_widget.js'></script>
     <script src="./app.js" charset="utf-8"></script>
 </head>
 
 <body>
-  <header>
-      <nav class="main" id="menu-header">
-          <div class="links">
-              <a href="/bio.html">Bio</a> | <a href="/listen.html">Listen</a> |  <a href="/booking.html">Booking</a> | <a href="http://bandsintown.com/SavannahRedMusic">Calendar</a> | <a href="/shop.html">Shop</a> | <a href="/blog.html">Blog</a> | <a href="/paperdoll.html">Paper Doll</a>
-          </div>
-      </nav>
-  </header>
+    <header>
+        <nav class="main" id="menu-header">
+            <div class="links">
+                <a href="/bio.html">Bio</a> | <a href="/listen.html">Listen</a> | <a href="/booking.html">Booking</a> | <a href="/calendar.html">Calendar</a> | <a href="/shop.html">Shop</a> | <a href="/blog.html">Blog</a> |
+                <a href="/paperdoll.html">Paper Doll</a>
+            </div>
+        </nav>
+    </header>
+
+    <h1 class="header">Show Dates</h1>
 
     <div class="background-image">
         <div data-scroll-speed="20">
@@ -28,6 +32,18 @@
     </div>
 
 
-<h1 class="header">This is the Calendar Page</h1>
+<div class="container dates">
+  <div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+          <a href="http://www.bandsintown.com/SavannahRedMusic" class="bit-widget-initializer" data-artist="SavannahRedMusic">SavannahRedMusic Tour Dates</a>
+    </div>
+    <div class="col-md-1"></div>
+  </div>
+</div>
 
-</body></html>
+
+
+</body>
+
+</html>

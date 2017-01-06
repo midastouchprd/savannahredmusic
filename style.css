@@ -152,3 +152,9 @@ blockquote {
   margin-top: 2vh;
   border: dashed 2px white;
 }
+
+.dates, .player {
+  margin-top: 3vh;
+  background-color: gray;
+  padding: 2vmax;
+}
