@@ -162,3 +162,12 @@ blockquote {
   background-color: gray;
   padding: 2vmax;
 }
+
+.flex {
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */}
+
+.flex img {
+  align-self: center;
+}
