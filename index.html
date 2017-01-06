@@ -4,51 +4,37 @@
 <head>
     <meta charset="UTF-8">
     <title>Savannah Red Music</title>
-    <!-- styles -->
-    <link rel="stylesheet" href="node_modules/angular-ui-router-anim-in-out/css/anim-in-out.css" media="screen" title="no title">
     <link href="https://fonts.googleapis.com/css?family=Arbutus|Josefin+Sans|Nunito|Questrial|Quicksand" rel="stylesheet">
-    <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" media="screen" title="no title">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="js/app.js" charset="utf-8"></script>
 </head>
 
 <body>
     <header>
         <nav class="main" id="menu-header">
             <div class="links">
-                <a ui-sref="bio" ui-sref-active="active">Bio</a> | <a ui-sref="listen">Listen</a> | <a ui-sref="blog">Blog</a> | <a ui-sref="booking">Booking</a> | <a ui-sref="calendar">Calendar</a> | <a ui-sref="shop">Shop</a> | <a ui-sref="paperdoll">Paper Doll</a>
+                <a href="/bio.html">Bio</a> | <a href="/listen.html">Listen</a> | <a href="/blog.html">Blog</a> | <a href="/booking.html">Booking</a> | <a href="/calendar.html">Calendar</a> | <a href="/shop.html">Shop</a> | <a href="/paperdoll.html">Paper Doll</a>
             </div>
         </nav>
     </header>
+
+
+
     <div class="container-fluid" id="jumbotron">
-        <div class="col-xs-4"></div>
-        <div class="col-xs-4">
+        <div class="col-md-2"></div>
+        <div class="col-md-6">
 
             <img class="img-responsive" src="../images/savannah-red-white-red.png" alt="" />
 
         </div>
-        <div class="col-xs-4"></div>
+        <div class="col-md-2"></div>
     </div>
 
 
 
-    <!-- scripts -->
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.0-rc.2/angular.js" charset="utf-8"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.0/angular-animate.js" charset="utf-8"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.2/angular-ui-router.min.js" charset="utf-8"></script>
-    <script src="node_modules/angular-ui-router-anim-in-out/anim-in-out.js" charset="utf-8"></script>
-    <script src="js/app.js" charset="utf-8"></script>
-    <script src="js/controllers/bioController.js" charset="utf-8"></script>
-    <script src="js/controllers/blogController.js" charset="utf-8"></script>
-    <script src="js/controllers/bookingController.js" charset="utf-8"></script>
-    <script src="js/controllers/calendarController.js" charset="utf-8"></script>
-    <script src="js/controllers/homeController.js" charset="utf-8"></script>
-    <script src="js/controllers/listenController.js" charset="utf-8"></script>
-    <script src="js/controllers/paperdollController.js" charset="utf-8"></script>
-    <script src="js/controllers/shopController.js" charset="utf-8"></script>
 </body>
 
 </html>
