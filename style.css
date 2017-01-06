@@ -134,11 +134,15 @@ h1, h2{
     padding: 2vh;
 }
 
-.bio-image {
+.bio-image, .bio-image2 {
     margin-bottom: 3vh;
     margin-top: 3vh;
     border-top: solid 2px gray;
     border-bottom: solid 2px gray;
+}
+
+.bio-image2{
+  margin-top: 10vh;
 }
 
 blockquote {
